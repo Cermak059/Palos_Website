@@ -7,7 +7,27 @@ body {
 .body_wide{
   background: #4c0026;
   padding: 20px;
-  background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/background_trial.png');
+  background-image: url('../Images/background_trial.png');
+}
+.scores_table {
+  padding-bottom: 15px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 3px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+th{
+  background-color: #4c0026;
+  color: white;
+}
+td {
+  background-color: white;
 }
 /*--- navigation bar ---*/
 .navbar {
@@ -118,6 +138,7 @@ body {
 .special_image img{
   width: 100%;
 }
+
 /* If the screen size is 850px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 850px) {
   .carousel-item {
@@ -126,21 +147,21 @@ body {
     height: 300px;
   }
   .item_1 img{
-    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/masking-unit-mobile.jpg');
+    background-image: url('../Images/masking-unit-mobile.jpg');
     position: relative;
     width: 100%;
     height: 100%;
     min-height: 370px;
   }
   .item_2 img{
-    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/sparklow-mobile.jpg');
+    background-image: url('../Images/sparklow-mobile.jpg');
     position: relative;
     width: 100%;
     height: 100%;
     min-height: 370px;
   }
   .item_3 img{
-    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/pinsetter2_mobile.jpg');
+    background-image: url('../Images/pinsetter2_mobile.jpg');
     position: relative;
     width: 100%;
     height: 100%;
@@ -174,7 +195,7 @@ body {
   }
   .main_body{
     width: 100%;
-    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/approach.jpg');
+    background-image: url('../Images/approach.jpg');
     margin: 0 auto;
     padding: 20px;
   }
@@ -212,13 +233,20 @@ body {
     max-height: 115px;
     height: 100%;
   }
+  .main_body th{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .main_body td{
+    font-size: 10px;
+  }
 }
 /* If the screen size is 851px wide or more, set the font-size of <div> to 30px */
 @media screen and (min-width: 851px) {
   .main_body{
     width: 90%;
     height: 90%;
-    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/approach.jpg');
+    background-image: url('../Images/approach.jpg');
     margin: 0 auto;
     padding: 20px;
   }
