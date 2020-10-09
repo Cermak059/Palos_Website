@@ -1,0 +1,293 @@
+body {
+  padding: 0;
+  margin: 0;
+  padding-top: 70px;
+  color: #ffffff;
+}
+.body_wide{
+  background: #4c0026;
+  padding: 20px;
+  background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/background_trial.png');
+}
+/*--- navigation bar ---*/
+.navbar {
+  background: #4c0026;
+}
+.nav-link,
+.navbar-brand {
+  color: #ffffff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #b0d234;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-brand{
+  color: white;
+  font-family: cursive;
+  font-size: 32px;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.logo{
+  max-width: 250px;
+  max-height: 40px;
+}
+/*---sliding header---*/
+.carousel-item {
+  position: relative;
+  width: 1100px;
+  height: 600px;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1{
+  color: #ffffff;
+}
+.description h2{
+  color: #ffffff;
+}
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.description button {
+  border:1px solid #b0d234;
+  background:#b0d234;
+  border-radius: 0;
+  color:#fff;
+}
+.description button:hover {
+  border:1px solid #fff;
+  background:#fff;
+  color:#000;
+}
+.carousel-caption button{
+  border:1px solid #b0d234;
+  background:#b0d234;
+  border-radius: 0;
+  color:#fff;
+}
+.item_1 img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
+.item_2 img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
+.item_3 img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
+.header_top{
+  padding-bottom: 15px;
+}
+.card-body a{
+  background-color: #b0d234;
+}
+.card-footer a{
+  background-color:
+}
+.special_image img{
+  width: 100%;
+}
+/* If the screen size is 850px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 850px) {
+  .carousel-item {
+    position: relative;
+    width: 850px;
+    height: 300px;
+  }
+  .item_1 img{
+    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/masking-unit-mobile.jpg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 370px;
+  }
+  .item_2 img{
+    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/sparklow-mobile.jpg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 370px;
+  }
+  .item_3 img{
+    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/pinsetter2_mobile.jpg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 370px;
+  }
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .description h2{
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .carousel-caption h3{
+    color: #ffffff;
+    font-size: 10px;
+  }
+  .carousel-caption button{
+    font-size: 10px;
+  }
+  .description img {
+    max-height: 100px;
+    max-width: 150px;
+  }
+  .main_body{
+    width: 100%;
+    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/approach.jpg');
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .col-12{
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .col-8{
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .col-12 img{
+    max-height: 125px;
+    height: 100%;
+    padding: 15px;
+  }
+  .row h3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .row h4{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .row h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .col-2 img{
+    max-height: 115px;
+    height: 100%;
+  }
+}
+/* If the screen size is 851px wide or more, set the font-size of <div> to 30px */
+@media screen and (min-width: 851px) {
+  .main_body{
+    width: 90%;
+    height: 90%;
+    background-image: url('/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/approach.jpg');
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .col-12{
+    min-width: 300px;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .col-8{
+    min-width: 300px;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .col-12 img{
+    max-height: 300px;
+    height: 100%;
+    padding: 10px;
+  }
+  .row h3{
+    font-size: 30px;
+    text-align: center;
+  }
+  .row h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .col-2 img{
+    max-height: 250px;
+    height: 100%;
+    padding-top: 10px;
+  }
+}
+.col{
+  min-width: 300px;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.card-title{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.card{
+  height: 100%;
+}
+.card-body{
+  background-color: #F2F2F2;
+}
+.card img{
+  max-height: 200px;
+}
+.card img:hover{
+  opacity: 0.3;
+}
+.card-text{
+  color: #000000;
+}
+.col-12{
+  text-align: center;
+}
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
