@@ -1,3 +1,5 @@
+/*--- If screen size is 851px or more ---*/
+/*--- Body ---*/
 body {
   padding: 0;
   margin: 0;
@@ -8,26 +10,6 @@ body {
   background: #4c0026;
   padding: 20px;
   background-image: url('../Images/background_trial.png');
-}
-.scores_table {
-  padding-bottom: 15px;
-}
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-td, th {
-  border: 3px solid #dddddd;
-  text-align: left;
-  padding: 4px;
-}
-th{
-  background-color: #4c0026;
-  color: white;
-}
-td {
-  background-color: white;
 }
 /*--- navigation bar ---*/
 .navbar {
@@ -59,7 +41,10 @@ td {
   max-width: 250px;
   max-height: 40px;
 }
-/*---sliding header---*/
+/*---sliding jumbotron header---*/
+.header_top {
+  padding-bottom: 15px;
+}
 .carousel-item {
   position: relative;
   width: 1100px;
@@ -80,10 +65,10 @@ td {
   transform: translate(-50%, -55%);
   text-align: center;
 }
-.description h1{
+.description h1 {
   color: #ffffff;
 }
-.description h2{
+.description h2 {
   color: #ffffff;
 }
 .description p {
@@ -102,43 +87,75 @@ td {
   background:#fff;
   color:#000;
 }
-.carousel-caption button{
+.carousel-caption button {
   border:1px solid #b0d234;
   background:#b0d234;
   border-radius: 0;
   color:#fff;
 }
-.item_1 img{
+.item_1 img {
   position: relative;
   width: 100%;
   height: 100%;
   min-height: 600px;
 }
-.item_2 img{
+.item_2 img {
   position: relative;
   width: 100%;
   height: 100%;
   min-height: 600px;
 }
-.item_3 img{
+.item_3 img {
   position: relative;
   width: 100%;
   height: 100%;
   min-height: 600px;
 }
-.header_top{
-  padding-bottom: 15px;
-}
-.card-body a{
+/*--- customize cards on homepage ---*/
+.card-body a {
   background-color: #b0d234;
 }
-.card-footer a{
+.card-footer a {
   background-color:
+}
+/*--- League highscores page table ---*/
+.scores_table {
+  padding-bottom: 15px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 3px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+th{
+  background-color: #4c0026;
+  color: white;
+}
+td {
+  background-color: white;
+}
+/*--- Open bowling page content ---*/
+.table_header{
+  border: 3px solid #dddddd;
+  background-color: #4c0026;
+  color: white;
+  margin-bottom: 10px;
+}
+.table_content p{
+  font-size: 20px;
+}
+.price_group1{
+  border: 1px solid;
+  margin-bottom: 25px;
 }
 .special_image img{
   width: 100%;
 }
-
 /* If the screen size is 850px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 850px) {
   .carousel-item {
@@ -201,11 +218,15 @@ td {
   }
   .col-12{
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
   }
   .col-8{
     width: 100%;
     padding-bottom: 15px;
+  }
+  .col-6{
+    width: 100%;
+    text-align: center;
   }
   .col-12 img{
     max-height: 125px;
@@ -218,9 +239,8 @@ td {
     font-weight: bold;
   }
   .row h4{
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
-    font-weight: bold;
   }
   .row h1{
     font-size: 25px;
@@ -232,6 +252,9 @@ td {
   .col-2 img{
     max-height: 115px;
     height: 100%;
+  }
+  .table_content p{
+    font-size: 10px;
   }
   .main_body th{
     font-size: 10px;
@@ -306,6 +329,9 @@ td {
 }
 .card-text{
   color: #000000;
+}
+.col-6{
+  text-align: center;
 }
 .col-12{
   text-align: center;
