@@ -8,8 +8,7 @@ body {
 }
 .body_wide{
   background: #4c0026;
-  padding: 20px;
-  background-image: url('../Images/background_trial.png');
+  background-image: url('https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/background_trial.png');
 }
 /*--- navigation bar ---*/
 .navbar {
@@ -128,7 +127,7 @@ table {
   width: 100%;
 }
 td, th {
-  border: 3px solid #dddddd;
+  border: 1px solid #dddddd;
   text-align: left;
   padding: 4px;
 }
@@ -139,24 +138,7 @@ th{
 td {
   background-color: white;
 }
-/*--- Open bowling page content ---*/
-.table_header{
-  border: 3px solid #dddddd;
-  background-color: #4c0026;
-  color: white;
-  margin-bottom: 10px;
-}
-.table_content p{
-  font-size: 20px;
-}
-.price_group1{
-  border: 1px solid;
-  margin-bottom: 25px;
-}
-.special_image img{
-  width: 100%;
-}
-/* If the screen size is 850px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 1150px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 850px) {
   .carousel-item {
     position: relative;
@@ -164,21 +146,21 @@ td {
     height: 300px;
   }
   .item_1 img{
-    background-image: url('../Images/masking-unit-mobile.jpg');
+    background-image: url('https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/masking-unit-mobile.jpg');
     position: relative;
     width: 100%;
     height: 100%;
     min-height: 370px;
   }
   .item_2 img{
-    background-image: url('../Images/sparklow-mobile.jpg');
+    background-image: url('https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/sparklow-mobile.jpg');
     position: relative;
     width: 100%;
     height: 100%;
     min-height: 370px;
   }
   .item_3 img{
-    background-image: url('../Images/pinsetter2_mobile.jpg');
+    background-image: url('https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/pinsetter2_mobile.jpg');
     position: relative;
     width: 100%;
     height: 100%;
@@ -190,6 +172,17 @@ td {
     top: 45%;
     transform: translate(-50%, -55%);
     text-align: center;
+  }
+  .palos_logo {
+    left: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-60%, -50%);
+    text-align: center;
+  }
+  .palos_logo img{
+    min-height: 125px;
+    min-width: 200px;
   }
   .description h1{
     color: #ffffff;
@@ -212,9 +205,8 @@ td {
   }
   .main_body{
     width: 100%;
-    background-image: url('../Images/approach.jpg');
+    background-image: url('https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/approach.jpg');
     margin: 0 auto;
-    padding: 20px;
   }
   .col-12{
     width: 100%;
@@ -263,6 +255,27 @@ td {
   .main_body td{
     font-size: 10px;
   }
+  .page-footer p{
+    font-size: 10px;
+  }
+  /*--- Open bowling page content ---*/
+  .table_header{
+    border: 3px solid #dddddd;
+    background-color: #4c0026;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .table_content h4{
+    font-weight: bold;
+  }
+  .table_content p{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .price_group1{
+    border: 1px solid;
+    margin-bottom: 25px;
+  }
 }
 /* If the screen size is 851px wide or more, set the font-size of <div> to 30px */
 @media screen and (min-width: 851px) {
@@ -303,6 +316,26 @@ td {
     max-height: 250px;
     height: 100%;
     padding-top: 10px;
+  }
+  /*--- Open bowling page content ---*/
+  .table_header{
+    border: 3px solid #dddddd;
+    background-color: #4c0026;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .table_content p{
+    font-size: 20px;
+  }
+  .table_content h4{
+    font-weight: bold;
+  }
+  .col-4 h4{
+    font-weight: bold;
+  }
+  .price_group1{
+    border: 1px solid;
+    margin-bottom: 25px;
   }
 }
 .col{
