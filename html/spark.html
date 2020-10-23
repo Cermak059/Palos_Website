@@ -4,7 +4,7 @@
     <title>Palos Lanes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/Users/kylecermak/Desktop/Palos_Project/Palos_Website/CSS/main.css">
+    <link rel="stylesheet" href="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-md fixed-top">
       <a class="navbar-brand" href="http://wwww.paloslanes.net">
         <div class="logo">
-          <img src="/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/PALOS copy.png" class="img-fluid">
+          <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/PALOS+copy.png" class="img-fluid">
         </div>
       </a>
       <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
@@ -24,20 +24,20 @@
       <div class="collapse navbar-collapse" id="main-navigation">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Leagues</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">League Signup</a>
               <a class="dropdown-item" href="#">Leaegue Standings</a>
-              <a class="dropdown-item" href="#">League High Scores</a>
+              <a class="dropdown-item" href="league-highscores.html">League High Scores</a>
             </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Open Bowling</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Hours/Pricing</a>
+              <a class="dropdown-item" href="open-bowling.html">Hours/Pricing</a>
               <a class="dropdown-item" href="#">Bowling Specials</a>
             </div>
           </li>
@@ -56,10 +56,11 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="item_1">
-              <img src="/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/sparklow.jpg" alt="" class="img-fluid">
+              <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/sparklow.jpg" alt="" class="img-fluid">
             </div>
             <div class="overlay">
               <div class="description">
+                <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/spark.png" alt="Chicago" class="img-fluid">
                 <h1>Welcome to Spark</h1>
               </div>
             </div>
@@ -67,27 +68,90 @@
         </div>
       </div>
     </div>
-    <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-        <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-      </div>
-        <div class="col">
-          <h6 class="text-uppercase font-weight-bold">Address</h6>
-          <p>11025 Southwest Highway Palos Hills, IL. 60465</p>
-          <h6 class="text-uppercase font-weight-bold">Phone</h6>
-          <p>708 974 3200</p>
+    <div class="body_wide">
+      <div class="main_body">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://youtube.com/embed/vt0IqP_wPYY" style="padding-top:20px"></iframe>
+              </div>
+              <div class="container" style="background-color:white; padding: 20px">
+                <p><h5>RIVAL RUMBLE</h5> Compete in a "best frame" competition where everyone has a chance to win one for the team. The player
+                with the best score in each frame counts towards the composite score for the team. Teams choose from creative
+                mascots like the Unbeatabulls, Lil' Dragons, KillerBees and more! At the end of the game each player earns their own rewards
+                on both teams. Rival Rumble is the ultimate team game!</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col" style="text-align:center">
-          <h6 class="text-uppercase font-weight-bold">PROUD HOME OF THE</h6>
-          <img src="/Users/kylecermak/Desktop/Palos_Project/Palos_Website/Images/palos_schools.png" alt="" class="img-fluid">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h1>Featured Games</h1>
+              <hr style="height:3px;border-width:0;color:black;;background-color:black;">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/rival_rumble.jpg" alt="" class="img-fluid">
+              <div class="container" style="background-color:white; padding: 20px">
+                <p><h5>RIVAL RUMBLE</h5> Compete in a "best frame" competition where everyone has a chance to win one for the team. The player
+                with the best score in each frame counts towards the composite score for the team. Teams choose from creative
+                mascots like the Unbeatabulls, Lil' Dragons, KillerBees and more! At the end of the game each player earns their own rewards
+                on both teams. Rival Rumble is the ultimate team game!</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/boom_bots.jpg" alt="" class="img-fluid">
+              <div class="container" style="background-color:white; padding: 20px">
+                <p><h5>BOOM BOTS</h5> is a 5 frame, 1 bowl game. Developed exclusively for Spark, Boom Bots turns the lane into an
+                interactive scoring experience. Pins and targets on the lane are worth big points, but the targets are worth more. Take aim
+                at this fast paced and fun demolition filled game.</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/pin_pix.jpg" alt="" class="img-fluid">
+              <div class="container" style="background-color:white; padding: 20px">
+                <p><h5>PIN PIX</h5> Lets guests take photos, use images from their mobile devices or take pictures from the lane tablet.
+                 10 frames of fun using filters and photo editing tools just like your favorite apps. Only pin pix lets players photobomb each other
+               while collecting hats, beards, glasses and other wacky accessories!</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/angry_birds.jpg" alt="" class="img-fluid">
+              <div class="container" style="background-color:white; padding: 20px">
+                <p><h5>ANGRY BIRDS</h5> is a 5 frame game where the pigs are identified by the bowling pins in random order per frame on the
+                overheard or on the lane itself when spark is active. The object...Get all the pigs! You have 2 shots per frame to pop all the pigs, if
+               you get them all on the first shot without a strike, the machine will reset for next player. Watch for special bird levels that pop pigs easier! Max
+             score is 250,000.</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+            <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+            <p>Hours of operation may not reflect open bowling hours due to prior league commitments. To check specific availability please call us at the contact number below!</p>
+            <p>Due to covid-19 we ask that all of our customers respect each other and our employees by wearing a mask in common areas, this includes the bar, front desk and public restrooms. You may remove your mask once bowling. We appreciate your understanding.</p>
+          </div>
+            <div class="col">
+              <h6 class="text-uppercase font-weight-bold">Address</h6>
+              <p>11025 Southwest Highway Palos Hills, IL. 60465</p>
+              <h6 class="text-uppercase font-weight-bold">Phone</h6>
+              <p>708 974 3200</p>
+            </div>
+            <div class="col" style="text-align:center">
+              <h6 class="text-uppercase font-weight-bold">PROUD HOME OF THE</h6>
+              <img src="https://paloslaneswebsite.s3.us-east-2.amazonaws.com/Images/palos_schools.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="footer-copyright text-center">Copyright © Arena Enterprises Inc. dba Palos Lanes - All rights reserved</div>
+        </div>
+        </footer>
       </div>
-        <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
-      </div>
-    </footer>
+    </div>
   </body>
 </html>
